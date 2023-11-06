@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Geologica&family=Poppins:ital,wght@0,700;0,800;0,900;1,600&display=swap');
+. {
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins', sans-serif;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+
+body{
+	opacity: 0;
+	transition: opacity 3s;
+}
+
+.hero{
+	max-width: 100%;
+	height: 100vh;
+}
+
+.nav{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 40px 200px;
+}
+.nav a{
+	font-size: var(--p-font);
+	color: var(--text-color);
+	font-weight: 500;
+	padding: 10px 27px;
+}
+
+.links ul{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+	list-style: none;
+}
+
+.links ul a{
+	font-weight: 400;
+	transition: all 1000ms ease;
+}
+
+.links ul a:hover{
+	color: red;
+}
+
+.main{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 6rem;
+	margin-top: 70px;
+}
+
+.main .person{
+	width: 370px;
+	transition: all 2000ms ease;
+	cursor: pointer;
+}
+
+.main .person:hover{
+	transform: scale(1.2);
+}
+
+.main .main-dt{
+	text-align: center;
+	color: #2a2a2a;
+}
+
+.main .main-dt h1{
+	font-size: 40px;
+	margin-bottom: 5px;
+	position: relative;
+}
+
+.main .main-dt h4{
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.main .btn button{
+	padding: 8px 20px;
+	background: transparent;
+	border-radius: 30px;
+	border: 1px solid #2a2a2a;
+	margin-right: 1rem;
+	margin-bottom: 30px;
+	cursor: pointer;
+}
+
+.main .btn .btn-2{
+	background: #2a2a2a;
+	color: #fff;
+	border: none;
+	outline: navajowhite;
+}
+
+.main .btn .btn-2:hover{
+	background: #f4637b;
+}
+
+.sosial-icon i{
+	color: #2a2a2a;
+	font-size: 40px;
+	margin: 0px 15px;
+	transition: all 2000ms ease;
+	cursor: pointer;
+}
+
+.sosial-icon i:hover{
+	color: #f4637b;
+}
+
+.about {
+	width: 100%;
+	padding: 100px 0;
+	background-color: #fff;
+} 
+.about-me {
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-me img {
+	height: auto;
+	width: 430px;
+	border-radius: 10px;
+}
+.about-text {
+	width: 550px;
+}
+.about-text h2 {
+	color: black;
+	font-size: 65px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+	border-bottom: 1px solid red;
+}
+
+.about-text p {
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+	text-align: justify;
+}
+.button {
+	background-color: black;
+	color: white;
+	border: 2px solid white;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .5s;
+}
+.button:hover {
+	background-color: transparent;
+	border:2px solid red;
+	cursor: pointer;
+}
+
+h5{ 
+	font-size: 40px;
+}
+
+li{ 
+	list-style-type: none;
+}
+
+.skills{
+	width: 500px;
+	margin: 60px auto;
+	color: black;
+}
+
+.skills li{ 
+	margin: 20px 0;
+}
+
+.bar{ 
+	background-color: #353b48;
+	display: block;
+	height: 2px;
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 0 10px #2187e7b3;
+}
+
+.bar span{ 
+	height: 2px;
+	float: left;
+	background-color: red;
+}
+
+.html{ 
+	width: 80%;
+	animation: html 2s;
+}
+
+.css{ 
+	width: 40%;
+	animation: css 2s;
+}
+
+.javascript{ 
+	width: 50%;
+	animation: javascript 2s;
+}
+
+.php{ 
+	width: 60%;
+	animation: jquery 2s;
+}
+
+@keyframes html{
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 80%;
+	}
+}
+
+@keyframes css{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 93%;
+	}
+}
+
+@keyframes javascript{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 50%;
+	}
+}
+
+@keyframes php{ 
+	0%{
+		width: 0%;
+	}
+
+	100%{
+		width: 30%;
+	}
+} 
